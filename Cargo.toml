@@ -1,0 +1,18 @@
+[package]
+name = "external_ip_polling"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+duckdb = "1.1.1"
+scraper = "0.22.0"
+anyhow = "1.0.95"
+chrono = "0.4.39"
+log = "0.4.22"
+env_logger = "0.11.6"
+reqwest = "0.12.9"
+async-trait = "0.1.83"
+once_cell = "1.20.2"
+tokio = { version = "1.42.0" , features = ["full"]}
